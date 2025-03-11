@@ -5,7 +5,7 @@
 This repository contains a demo of training a Named Entity Recognition (NER) model using [spaCy](https://spacy.io/) to identify quantities and product names in text. The model is trained on custom data containing queries about purchasing products.
 
 ## 📌 What is Named Entity Recognition (NER)?
-Named Entity Recognition (NER) is a Natural Language Processing (NLP) technique that identifies and categorizes key entities in text. Common entity types include names, dates, organizations, and locations. In this demo, we train a custom model to recognize:
+Named Entity Recognition (NER) is a Natural Language Processing (NLP) technique that identifies and categorizes key entities in text. Common entity types include names, dates, organizations, and locations. In this demo a custom model is trained to recognize:
 - **QUANTITY** – Number of items being requested (e.g., "10" in "10 bananas").
 - **PRODUCT** – The product being referenced (e.g., "bananas" in "10 bananas").
 
